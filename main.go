@@ -22,9 +22,5 @@ func main() {
 		return
 	}
 
-	if *verbose {
-		fmt.Println("Placeholder")
-	}
-
 	parcelilib.Parceli(*service, *tracking, *verbose)
 }
