@@ -23,7 +23,7 @@ var (
 const (
 	UPS = 1 << 0
 	USPS = 1 << 1
-	FEDEX = 2 << 2
+	FEDEX = 1 << 2
 )
 
 func Parceli(tracking string, verbose bool) {
